@@ -13,6 +13,19 @@
 - Ahmed Ibrahim kamal Farag
 - Yasser Abd Elrahman Fawze
 - Mohamed A. Bahnsawy Kamel @[th3prof](https://github.com/th3pr "th3prof")
+
+## This project is the graduation project of ITI , in this project you will find the solution of the task (Authentication , roles and permissions)
+## How to run 
+-  clone the project 
+-  make .env file and change dbname , dbhost , password
+-  make database in your machine
+-  composer install
+-  php artisan migrate:fresh --seed
+-  php artisan serve
+-  login with admin account will apear for in login page
+-  it will open the main page you can press button login and test auth systems,roles and permissions 
+
+
 ## License 
 
 ## About Laravel
